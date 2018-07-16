@@ -1,0 +1,52 @@
+.posts {
+    list-style: none;
+    .post {
+        height: 84px;
+        margin-bottom: 20px;
+        .thumb {
+            float: left;
+            width: 124px;
+            margin-right: 20px;
+            height: inherit;
+            background: $super-light-alien;
+            border-radius: 4px;
+            text-align: center;
+            line-height: 84px;
+            font-size: 18px;
+            color: $light-alien;
+        }
+        .description {
+            display: block;
+            .submission {
+                display: block;
+                color: $medium-alien;
+                font-size: 12px;
+            }
+            b {
+                display: block;
+                font-size: 14px;
+                color: $dark-alien;
+            }
+        }
+    }
+}
+.post-actions {
+    display: block;
+    list-style: none;
+    li {
+        display: inline-block;
+        cursor: pointer;
+        color: $medium-alien;
+        font-size: 12px;
+        &:not(:last-child) {
+            border-right: 1px solid $medium-alien;;
+            padding: 0 8px;
+        }
+        &:first-child {
+            padding-left: 0;
+        }
+        &:last-child {
+            padding-left: 8px;
+        }
+    }
+}

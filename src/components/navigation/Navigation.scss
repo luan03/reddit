@@ -1,0 +1,19 @@
+.navigation {
+    float: left;
+    list-style: none;
+    li {
+        display: inline-block;
+        padding: 0 20px 16px 20px;
+        a {
+            font-size: 14px;
+            color: $medium-alien;
+            text-decoration: none;
+        }
+        &.active {
+            border-bottom: 3px solid $main-alien;
+            a {
+                color: $main-alien;
+            }
+        }
+    }
+}

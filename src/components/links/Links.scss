@@ -1,0 +1,16 @@
+.links {
+    height: calc(100vh - 388px);
+    overflow: scroll;
+    ul {
+        margin: 30px 0 0 0;
+        padding: 0 0 0 30px;
+        list-style: none;
+        overflow-y: scroll;
+        height: calc(100vh - 366px);
+        a {
+            text-decoration: none;
+            color: $medium-alien;
+            font-size: 14px;
+        }
+    }
+}

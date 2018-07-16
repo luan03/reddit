@@ -1,0 +1,21 @@
+.menu {
+    box-shadow: 0 1px 0px 0px #e3e4e6, 0 2px 1px #f8f8f8;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 30px 30px;
+        position: relative;
+        li {
+            margin-bottom: 10px;
+            a {
+                text-decoration: none;
+                color: $medium-alien;
+                font-size: 14px;
+                &:hover,
+                &.active {
+                    color: $main-alien;
+                }
+            }
+        }
+    }
+}
